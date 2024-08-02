@@ -13,7 +13,7 @@ print('Table created')
 #================================================================================
 
 con.execute('''INSERT INTO leaf_db(NAME, USERNAME, EMAIL, PASSWORD) 
-            VALUES('Sarath', 'M', 'sarath@gmail.com', 'testleaf')''')
+            VALUES('Sarath', 'M', 'sarath@gmail.com', 'sarath')''')
 con.commit()
 print('Record inserted')
 #================================================================================
